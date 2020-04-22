@@ -8,6 +8,6 @@ setup(
     author_email='casper.smet@gmail.com',
     packages=find_packages(),
     entry_points={
-        "console_scripts": ["Lazytest = lazytest.Lazytest:main"]
+        "console_scripts": ["Lazytest = Lazytest:main"]
     }
 )
