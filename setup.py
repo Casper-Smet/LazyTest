@@ -6,5 +6,8 @@ setup(
     description='I was tired of making new .py files for each test I need to write, so I wrote a simple script to do it for me.',
     author='Casper Smet',
     author_email='casper.smet@gmail.com',
-    packages=find_packages()
+    packages=find_packages(),
+    entry_points={
+        "console_scripts": ["Lazytest = lazytest.Lazytest.main"]
+    }
 )
